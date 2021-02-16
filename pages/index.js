@@ -24,7 +24,7 @@ const index = () => {
         if (email && email.includes("@") === true) {
             const newEmail = {"email": email}
             try {
-                const res = await fetch("https://free-sneakers-final.vercel.app/api/entry", {
+                const res = await fetch("http://localhost:3000/api/entry", {
                     method: "POST",
                     headers: {
                         "Accept": "application/json",
