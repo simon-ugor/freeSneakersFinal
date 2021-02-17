@@ -1,8 +1,13 @@
 import Layout from "../components/Layout"
+import Head from "next/head"
 
 const AboutUs = () => {
     return (
         <Layout>
+            <Head>
+                <title>About Us - FreeSneakers.xyz</title>
+                <meta name="description" content="About Us - FreeSneakers.xyz" />
+            </Head>
             <div className="aboutus-div">
                 <h3 className="aboutus-heading">About Us</h3>
                 <p className="aboutus-text">You might be asking who are 

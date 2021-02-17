@@ -1,9 +1,14 @@
 
 import Layout from "../components/Layout.js"
+import Head from "next/head"
 
 const TermsConditions = () => {
     return (
         <Layout>
+            <Head>
+                <title>Terms and Conditions - FreeSneakers.xyz</title>
+                <meta name="description" content="Terms and Conditions - FreeSneakers.xyz" />
+            </Head>
         <div className="privacy-policy-div">
             
             <h2><b>DISCLAIMER</b></h2>

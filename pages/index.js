@@ -1,5 +1,6 @@
 import Layout from "../components/Layout"
 import Popup from "../components/Popup"
+import Head from "next/head"
 
 import fetch from "isomorphic-unfetch"
 import { useState } from "react"
@@ -63,6 +64,10 @@ const index = () => {
 
     return (
         <Layout>
+            <Head>
+                <title>FreeSneakers</title>
+                <meta name="description" content="Win free sneakers just by entering your email! Try your luck and generate a random number. Highest number wins!" />
+            </Head>
             <div>
                 <div style={{opacity: opacity}} className="main-email-div">
                     <form>

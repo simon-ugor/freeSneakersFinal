@@ -1,9 +1,14 @@
 
 import Layout from "../components/Layout.js"
+import Head from "next/head"
 
 const PrivacyPolicy = () => {
     return (
         <Layout>
+            <Head>
+                <title>Privacy Policy - FreeSneakers.xyz</title>
+                <meta name="description" content="Privacy Policy - FreeSneakers.xyz" />
+            </Head>
         <div className="privacy-policy-div">
             
             <h2><b>DISCLAIMER</b></h2>
