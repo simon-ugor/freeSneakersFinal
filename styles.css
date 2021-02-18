@@ -226,6 +226,10 @@ a {
     background-color: #EAE8DC;
     padding-left: 1vw;
     padding-right: 1vw;
+    padding-bottom: 0;
+    font-size: 3vh;
+    font-family: light-font;
+    text-align: center;
 }
   
 .email-input:focus {
@@ -234,7 +238,6 @@ a {
   
 .email-input::placeholder {
     font-family: light-font;
-    font-size: 3vh;
     color: #8F8D89;
     text-align: center;
 }
