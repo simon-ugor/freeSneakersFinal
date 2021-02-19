@@ -33,18 +33,10 @@ body {
     opacity: 0.2;
 }
 
-/* Coming soon */
+/* Homepage */
 
-.coming-soon {
-    font-family: bold-font;
-    font-size: 5vh;
-    text-align: center;
-    color: #EAE8DC;
-    margin-top: 1vh;
-    border-bottom: 2px solid #E88074;
-    border-top: 2px solid #E88074;
-    padding: 1vh;
-    background-color: #E88074;
+.homepage-main-div {
+    overflow: hidden;
 }
 
 /* How it works */
@@ -59,7 +51,7 @@ body {
   
   .howdoesitwork-heading {
     font-size: 4vh;
-    margin-top: 4vh;
+    margin-top: 3vh;
 }
   
   .howdoesitwork-text {

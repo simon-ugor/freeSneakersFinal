@@ -68,7 +68,7 @@ const index = () => {
                 <title>FreeSneakers</title>
                 <meta name="description" content="Win free sneakers just by entering your email! Try your luck and generate a random number. Highest number wins!" />
             </Head>
-            <div>
+            <div className="homepage-main-div">
                 <div style={{opacity: opacity}} className="main-email-div">
                     <form>
                         <h4 className="button-label">Enter your e-mail:</h4>
