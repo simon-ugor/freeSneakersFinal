@@ -69,7 +69,8 @@ body {
 }
   
   .margin-bottom {
-    margin-bottom: 1vh;
+    margin-bottom: 0.5vh;
+    font-size: 2.5vh;
 }
 
 /* Header */
@@ -310,4 +311,8 @@ a {
 .popup-sentin {
     font-size: 2.5vh;
     margin-top: 1vh;
+}
+
+.homepage-p {
+    font-size: 2.5vh;
 }
