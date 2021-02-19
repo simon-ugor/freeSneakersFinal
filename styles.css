@@ -68,6 +68,10 @@ body {
 /* Header */
 
 .main-header-div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
     width: 100vw;
     height: 11vh;
     display: flex;
