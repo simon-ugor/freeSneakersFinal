@@ -10,6 +10,12 @@ body {
     background-color: #EAE8DC;
 }
 
+.App {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
 @font-face {
     font-family: bold-font;
     src: url(./fonts/bold.ttf);
