@@ -33,7 +33,7 @@ body {
     top: 0;
     height: 0;
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
     background-image: url(./public/background-big.png);
     background-repeat: no-repeat;
     background-position: center;
