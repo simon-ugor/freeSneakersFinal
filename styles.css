@@ -308,3 +308,18 @@ a {
 .homepage-p {
     font-size: 2.5vh;
 }
+
+/* Loading */
+
+.loading-div {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

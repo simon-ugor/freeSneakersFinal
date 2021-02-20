@@ -4,6 +4,7 @@ import Head from "next/head"
 
 import fetch from "isomorphic-unfetch"
 import { useState } from "react"
+import Loading from "../components/Loading"
 
 const index = () => {
 
@@ -14,6 +15,7 @@ const index = () => {
     const [popUpText, setPopUpText] = useState("")
     const [opacity, setOpacity] = useState(1)
 
+    const [loadingDisplay, setLoadingDisplay] = useState("none")
 
     const handleChange = (e) => {
         setEmail(e.target.value)
@@ -23,6 +25,9 @@ const index = () => {
         e.preventDefault()
         //call database here
         if (email && email.includes("@") === true) {
+            //show loading
+            setLoadingDisplay("")
+            setOpacity(0.3)
             const newEmail = {"email": email}
             try {
                 const res = await fetch("https://freesneakers.xyz/api/entry", {
@@ -34,6 +39,7 @@ const index = () => {
                     body: JSON.stringify(newEmail)
                 }).then(response => response.json())
 
+                setLoadingDisplay("none")
                 setDisplayPopUp("")
                 setPopUpNumber(res.data)
                 setPopUpText(res.msg)
@@ -94,6 +100,9 @@ const index = () => {
                     okClick={closePopUp}
                     number={popUpNumber}
                     popupSentin={popUpText}
+                />
+                <Loading 
+                    loadingDisplay={loadingDisplay}
                 />
             </div>
         </Layout>
