@@ -1,7 +1,13 @@
 import Layout from "../components/Layout"
 import Head from "next/head"
+import { useEffect } from "react"
 
 const ContactUs = () => {
+
+    useEffect(() => {
+        document.body.style.overflow = "hidden"
+    }, [])
+
     return (
         <Layout>
             <Head>

@@ -3,10 +3,14 @@ import Popup from "../components/Popup"
 import Head from "next/head"
 
 import fetch from "isomorphic-unfetch"
-import { useState } from "react"
+import { useEffect, useState } from "react"
 import Loading from "../components/Loading"
 
 const index = () => {
+
+    useEffect(() => {
+        document.body.style.overflow = "hidden"
+    }, [])
 
     const [email, setEmail] = useState("")
 

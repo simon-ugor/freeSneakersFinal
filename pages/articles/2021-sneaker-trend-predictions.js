@@ -1,8 +1,14 @@
 import Layout from "../../components/Layout"
 import Image from "next/image"
 import Head from "next/head"
+import { useEffect } from "react"
 
 const firstBlogArticle = () => {
+
+    useEffect(() => {
+        document.body.style.overflow = "visible"
+    }, [])
+
     return (
         <Layout>
             <Head>

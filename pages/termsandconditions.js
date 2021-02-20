@@ -1,8 +1,14 @@
 
 import Layout from "../components/Layout.js"
 import Head from "next/head"
+import { useEffect } from "react"
 
 const TermsConditions = () => {
+
+    useEffect(() => {
+        document.body.style.overflow = "visible"
+    }, [])
+
     return (
         <Layout>
             <Head>
