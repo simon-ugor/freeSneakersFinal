@@ -13,7 +13,6 @@ body {
 .App {
     width: 100vw;
     height: 75vh;
-    background-color: white;
     overflow: hidden;
 }
 
@@ -33,7 +32,7 @@ body {
     top: 0;
     height: 0;
     width: 100vw;
-    height: 93vh;
+    height: 80vh;
     background-image: url(./public/background-big.png);
     background-repeat: no-repeat;
     background-position: center;
