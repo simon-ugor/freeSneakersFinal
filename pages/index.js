@@ -24,7 +24,7 @@ const index = () => {
     const handleClick = async (e) => {
         e.preventDefault()
         //call database here
-        if (email && email.includes("@") === true) {
+        if (email && email.includes("@") === true && email.includes(".") === true && email.includes(" ") === false) {
             //show loading
             setLoadingDisplay("")
             setOpacity(0.3)
@@ -53,10 +53,10 @@ const index = () => {
             setPopUpNumber("")
             setPopUpText("Please enter your email.")
             setOpacity(0.3)
-        } else if (email.includes("@") === false) {
+        } else if (email.includes("@") === false || email.includes(".") === false || email.includes(" ") === true) {
             setDisplayPopUp("")
             setPopUpNumber("")
-            setPopUpText("Email must include '@'")
+            setPopUpText("Please enter valid email. Email must include '@', '.' and no spaces.")
             setOpacity(0.3)
         }
     }
