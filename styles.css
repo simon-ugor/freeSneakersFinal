@@ -36,7 +36,7 @@ body {
 /* Homepage */
 
 .homepage-main-div {
-    height: 89vh;
+    height: 65vh;
     overflow: hidden;
 }
 
@@ -44,7 +44,6 @@ body {
 
 .main-howdoesitwork-div {
     width: 100vw;
-    height: 40vh;
     font-family: light-font;
     color: #E88074;
     text-align: center;
@@ -191,7 +190,6 @@ a {
 
 .main-email-div {
     width: 100vw;
-    height: 23vh;
     font-family: bold-font;
     margin-top: 1.5vh;
     text-align: center;
