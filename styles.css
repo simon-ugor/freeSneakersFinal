@@ -13,11 +13,6 @@ body {
     overflow: hidden;
 }
 
-.App {
-    width: 100vw;
-    height: 75vh;
-}
-
 @font-face {
     font-family: bold-font;
     src: url(./fonts/bold.ttf);
