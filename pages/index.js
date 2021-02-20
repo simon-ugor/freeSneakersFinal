@@ -38,7 +38,7 @@ const index = () => {
                     },
                     body: JSON.stringify(newEmail)
                 }).then(response => response.json())
-
+                
                 setLoadingDisplay("none")
                 setDisplayPopUp("")
                 setPopUpNumber(res.data)
@@ -63,6 +63,7 @@ const index = () => {
 
     const closePopUp = (e) => {
         e.preventDefault()
+        setEmail("")
         setOpacity(1)
         setDisplayPopUp("none")
     }
