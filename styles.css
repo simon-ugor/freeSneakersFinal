@@ -12,7 +12,8 @@ body {
 
 .App {
     width: 100vw;
-    height: 100vh;
+    height: 75vh;
+    background-color: white;
     overflow: hidden;
 }
 
