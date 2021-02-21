@@ -5,11 +5,19 @@ import Head from "next/head"
 import fetch from "isomorphic-unfetch"
 import { useEffect, useState } from "react"
 import Loading from "../components/Loading"
+import { useRouter } from "next/router"
 
 const index = () => {
 
+    const router = useRouter()
+
     useEffect(() => {
         document.body.style.overflow = "hidden"
+        
+        let url = window.location.href
+        if (url === "https://www.freesneakers.xyz/") {
+            router.push("https://freesneakers.xyz/")
+        }
     }, [])
 
     const [email, setEmail] = useState("")
