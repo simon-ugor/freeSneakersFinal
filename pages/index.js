@@ -6,6 +6,7 @@ import fetch from "isomorphic-unfetch"
 import { useEffect, useState } from "react"
 import Loading from "../components/Loading"
 import { useRouter } from "next/router"
+import Link from "next/link"
 
 const index = () => {
 
@@ -102,11 +103,12 @@ const index = () => {
                         <p className="homepage-p">1.) Enter you email.</p>
                         <p className="homepage-p">2.) Click Generate button.</p>
                         <p className="margin-bottom">3.) Your random number will be sent into our database.</p>
-                        <p className="margin-bottom">Every week an email with the highest number wins free sneakers!</p>
+                        <p className="margin-bottom">Every month an email with the highest number wins free sneakers!</p>
                         <p className="homepage-p">You can generate new number every 5 hours. Simply repeat the
                             proccess and if you get higher number, it will be sent it!
                         </p>
                     </div>
+                    <Link href="/monthly-prize"><a className="homepage-a">Monthly prize</a></Link>
                 </div>
                 <Popup
                     popupDisplay={displayPopUp}
