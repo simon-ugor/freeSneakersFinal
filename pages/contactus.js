@@ -19,7 +19,7 @@ const ContactUs = () => {
                 <p className="aboutus-text">For any questions or
                 troubleshooting you can always contact us at:</p>
                 <br />
-                <p className="aboutus-text">hypedfightt@gmail.com</p>
+                <p className="aboutus-text">coldenwebdev@gmail.com</p>
             </div>
         </Layout>
     )

@@ -85,7 +85,7 @@ const index = () => {
     return (
         <Layout>
             <Head>
-                <title>FreeSneakers</title>
+                <title>FreeSneakers.xyz</title>
                 <meta name="description" content="Win free sneakers just by entering your email! Try your luck and generate a random number. Highest number wins!" />
             </Head>
             <div className="homepage-main-div">
