@@ -26,12 +26,12 @@ export default async (req, res) => {
                     const time_now = Date.now()
                     const time_diff_seconds = (time_now - exists.time)*0.001
                     console.log(time_diff_seconds)
-                    var time_remaining = 300-time_diff_seconds
+                    var time_remaining = 18000-time_diff_seconds
                     var minutes = (Math.floor(time_remaining/60)).toString()
                     var seconds = (Math.floor(time_remaining-minutes*60)).toString()
-                    if (time_diff_seconds < 300) {
+                    if (time_diff_seconds < 18000) {
                         res.status(201).json({ success: true, msg: "You have to wait " + minutes + " minutes and " + seconds + " seconds." })
-                    } else if (time_diff_seconds > 300) {
+                    } else if (time_diff_seconds > 18000) {
                         const new_number = Math.floor(Math.random() * 10000);
 
                         console.log(exists.lucky_number)

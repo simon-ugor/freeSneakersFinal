@@ -15,6 +15,10 @@ const Blog = () => {
 
                 <Link href="/articles/2021-sneaker-trend-predictions"><a className="blog-link">2021 Sneaker Trend Predictions</a></Link>
 
+                <Link href="/articles/best-nike-sb-dunk-releases"><a className="blog-link">Best Nike SB Dunk releases of 2020</a></Link>
+
+                <Link href="/articles/new-balance-in-2020"><a className="blog-link">New Balance in 2020</a></Link>
+
             </div>
         </Layout>
     )

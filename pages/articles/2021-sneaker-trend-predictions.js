@@ -3,7 +3,7 @@ import Image from "next/image"
 import Head from "next/head"
 import { useEffect } from "react"
 
-const firstBlogArticle = () => {
+const SneakerTrendPredictions = () => {
 
     useEffect(() => {
         document.body.style.overflow = "visible"
@@ -34,4 +34,4 @@ const firstBlogArticle = () => {
     )
 }
 
-export default firstBlogArticle
+export default SneakerTrendPredictions
