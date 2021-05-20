@@ -6,7 +6,6 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
-
 <url>
   <loc>https://freesneakers.xyz/</loc>
   <lastmod>2021-02-23T01:20:57+00:00</lastmod>
@@ -30,33 +29,21 @@
 <url>
   <loc>https://freesneakers.xyz/privacypolicy</loc>
   <lastmod>2021-02-23T01:20:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://freesneakers.xyz/termsandconditions</loc>
   <lastmod>2021-02-23T01:20:57+00:00</lastmod>
-  <priority>0.80</priority>
+  <priority>0.60</priority>
 </url>
 <url>
   <loc>https://freesneakers.xyz/contactus</loc>
   <lastmod>2021-02-23T01:20:57+00:00</lastmod>
+  <priority>0.60</priority>
+</url>
+<url>
+  <loc>https://freesneakers.xyz/blog/best-skateboarding-shoes</loc>
+  <lastmod>2021-02-23T01:20:57+00:00</lastmod>
   <priority>0.80</priority>
 </url>
-<url>
-  <loc>https://freesneakers.xyz/articles/2021-sneaker-trend-predictions</loc>
-  <lastmod>2021-02-23T01:20:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://freesneakers.xyz/articles/best-nike-sb-dunk-releases</loc>
-  <lastmod>2021-02-23T01:20:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-<url>
-  <loc>https://freesneakers.xyz/articles/new-balance-in-2020</loc>
-  <lastmod>2021-02-23T01:20:57+00:00</lastmod>
-  <priority>0.64</priority>
-</url>
-
-
 </urlset>

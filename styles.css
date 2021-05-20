@@ -197,6 +197,22 @@ a {
     font-family: light-font;
 }
 
+.article-subheading {
+    font-size: 3.5vh;
+    margin-bottom: 1vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+.article-text {
+    font-size: 3vh;
+}
+
+.article-image-div {
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+}
+
 /* Email */
 
 .main-email-div {
