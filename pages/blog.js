@@ -17,6 +17,10 @@ const Blog = () => {
 
                 <Link href="/blog/most-expensive-sneakers"><a className="blog-link">Most Expensive Sneakers</a></Link>
 
+                <Link href="/blog/most-expensive-clothing"><a className="blog-link">Most Expensive Clothing</a></Link>
+
+                <Link href="/blog/adidas-launches-adidas-4DFWD"><a className="blog-link">Adidas Launches Adidas 4DFWD To Help Fitness Freaks Move Forward</a></Link>
+
             </div>
         </Layout>
     )
