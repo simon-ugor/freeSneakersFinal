@@ -21,6 +21,14 @@ const Blog = () => {
 
                 <Link href="/blog/adidas-launches-adidas-4DFWD"><a className="blog-link">Adidas Launches Adidas 4DFWD To Help Fitness Freaks Move Forward</a></Link>
 
+                <Link href="/blog/travis-scott-sneaker-collaborations"><a className="blog-link">Travis Scott Sneaker Collaborations</a></Link>
+
+                <Link href="/blog/playstation-5-vs-xbox-series-x"><a className="blog-link">PlayStation 5 vs Xbox Series X</a></Link>
+
+                <Link href="/blog/adidas-bape-collaborations"><a className="blog-link">Adidas x Bape collaborations</a></Link>
+
+                <Link href="/blog/what-are-celebrities-wearing"><a className="blog-link">What Are Celebrities Wearing?</a></Link>
+
             </div>
         </Layout>
     )

@@ -35,7 +35,7 @@ const adidasLaunches = () => {
 
                 <p className="article-text" style={{marginBottom: "2vh", paddingLeft: "5vw", paddingRight: "5vw"}}>As a result of this technology, most athletes, who tested midsoles made with this technology, stated that the peak braking force they experience during running has reduced considerably. The reason is that midsoles made with this technology redirect these vertical forces into horizontal forward motion. Most athletes also stated that these midsoles deliver running economy similar to ultra-boost midsoles.</p>
 
-                <p className="article-text" style={{marginBottom: "2vh", paddingLeft: "5vw", paddingRight: "5vw"}}>In short, 4D Lattice Midsole Technology is undoubtedly a revolution!</p>
+                <p className="article-text" style={{paddingLeft: "5vw", paddingRight: "5vw"}}>In short, 4D Lattice Midsole Technology is undoubtedly a revolution!</p>
 
             </div>
         </Layout>
