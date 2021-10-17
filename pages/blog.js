@@ -29,6 +29,10 @@ const Blog = () => {
 
                 <Link href="/blog/what-are-celebrities-wearing"><a className="blog-link">What Are Celebrities Wearing?</a></Link>
 
+                <Link href="/blog/useful-tips-for-styling-streetwear"><a className="blog-link">Useful Tips for Styling Streetwear</a></Link>
+
+                <Link href="/blog/what-is-streetwear-fashion"><a className="blog-link">What is Streetwear Fashion?</a></Link>
+
             </div>
         </Layout>
     )
