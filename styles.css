@@ -182,6 +182,9 @@ a {
     color: #E88074;
     display: flex;
     flex-direction: column;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-bottom: 12vh;
 }
   
 .blog-link {

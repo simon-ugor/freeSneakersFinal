@@ -2,8 +2,14 @@
 import Layout from "../components/Layout.js"
 import Link from "next/link"
 import Head from "next/head"
+import { useEffect } from "react"
 
 const Blog = () => {
+
+    useEffect(() => {
+        document.body.style.overflow = "visible"
+    }, [])
+
     return (
         <Layout>
             <Head>
@@ -32,6 +38,14 @@ const Blog = () => {
                 <Link href="/blog/useful-tips-for-styling-streetwear"><a className="blog-link">Useful Tips for Styling Streetwear</a></Link>
 
                 <Link href="/blog/what-is-streetwear-fashion"><a className="blog-link">What is Streetwear Fashion?</a></Link>
+
+                <Link href="/blog/guide-to-style-up-your-streetwear-like-a-pro"><a className="blog-link">Guide to Style Up Your Streetwear Like A Pro</a></Link>
+
+                <Link href="/blog/top-10-streetwear-essentials"><a className="blog-link">Top 10 Streetwear Essentials You Must Have In Your Wardrobe</a></Link>
+
+                <Link href="/blog/how-streetwear-took-over-the-fashion-world"><a className="blog-link">How Streetwear Took Over The Fashion World?</a></Link>
+
+                <Link href="/blog/10-reasons-to-choose-streetwear-fashion"><a className="blog-link">10 Reasons to choose Streetwear fashion</a></Link>
 
             </div>
         </Layout>
