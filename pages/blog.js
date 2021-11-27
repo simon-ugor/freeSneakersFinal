@@ -47,6 +47,18 @@ const Blog = () => {
 
                 <Link href="/blog/10-reasons-to-choose-streetwear-fashion"><a className="blog-link">10 Reasons to choose Streetwear fashion</a></Link>
 
+                <Link href="/blog/how-streetwear-restyled-the-world"><a className="blog-link">How Streetwear restyled the world?</a></Link>
+
+                <Link href="/blog/10-signs-that-represent-you-are-a-hypebeast"><a className="blog-link">10 signs that represent you are a Hypebeast</a></Link>
+
+                <Link href="/blog/the-ultimate-guide-for-womens-streetwear"><a className="blog-link">The ultimate guide for women's streetwear</a></Link>
+
+                <Link href="/blog/how-to-build-a-solid-streetwear-wardrobe-in-2021"><a className="blog-link">How to build a solid streetwear wardrobe in 2021?</a></Link>
+
+                <Link href="/blog/dos-and-donts-of-luxury-streetwear"><a className="blog-link">Dos and Don'ts of luxury streetwear</a></Link>
+
+                <Link href="/blog/what-are-different-types-of-streetwear"><a className="blog-link">What are different types of streetwear?</a></Link>
+
             </div>
         </Layout>
     )
